@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#cee3e3, #e4cdb2, #8c93a9, #b59473,#9d7c5d);
+}
+
+.container {
+    width: 1024px;
+    min-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-image>img {
+    border-radius: 50%;
+    width:100%;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-div {
+    width: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-radius: 5px;
+}
+
+.profile-image, .bio-text, .contact-info {
+    box-sizing: border-box;
+    padding: 30px 10px 30px 10px;
+}
+
+.profile-image {
+    min-width: 17%;
+}
+
+.bio-text {
+    min-width: 55%;
+}
+
+.contact-info {
+    min-width: 25%;
+}
+
+.bio-text>h1 {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.bio-text>h6 {
+    color: #a2a2a2;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.bio-text>p {
+    color: #c8c8c8;
+    margin: 0px;
+}
+
+.contact-info>p {
+    margin: 0px;
+}
+
+.contact-info {
+    padding-top: 77px;
+}
+
+.label-text {
+    color: #b4b4b4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contact-info-link {
+    text-decoration: none;
+    color: #e4409f;
+    font-size: 15px;
+}
+
+.main-card-divs {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 32%;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card  > img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-image-box>p {
+    padding: 0 15px 0 15px;
+    text-align: justify;
+}
+
+.card-image-box {
+    /* padding: 2px 16px; */
+}
+
+.heart-date-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+
+.heart-date-div>p {
+    margin-top: 0;
+    color:#b1b2b1;
+}
+.card-title{
+position: absolute;
+  top: 136px;
+  left: 16px;
+  color:white;
+}
