@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: linear-gradient(to bottom, #7589a6, #a291b180, #ca9bad80, #e1aca380, #e4c49f80)
+}
+@media screen and (max-width: 576px) {
+    .profileimage {
+      display: flex;
+      justify-content: center;
+    }
+    .row {
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      justify-content: center;
+    }
+  }
+  #profileimage{
+  width: 100%; 
+  border-radius: 50%
+}
